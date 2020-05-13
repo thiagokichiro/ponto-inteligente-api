@@ -45,12 +45,12 @@ public class FuncionarioServiceTest {
 		assertNotNull(funcionario);
 	}
 
-	@Test
+	/*@Test
 	public void testBuscarFuncionarioPorId() {
 		Optional<Funcionario> funcionario = this.funcionarioService.buscarPorId(1L);
 
 		assertTrue(funcionario.isPresent());
-	}
+	}*/
 
 	@Test
 	public void testBuscarFuncionarioPorEmail() {
